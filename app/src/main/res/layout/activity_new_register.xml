@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".NewRegister">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:orientation="horizontal">
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="45dp"
+                  android:text="차량번호: "/>
+
+        <EditText android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:hint="차량 번호를 입력해주세요"
+                  android:textSize="45dp"
+                  android:id="@+id/carNumber"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="20dp"
+                  android:gravity="center"
+                  android:orientation="horizontal">
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="45dp"
+                  android:text="등록일자: "/>
+
+        <EditText android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="45dp"
+                  android:id="@+id/registerDate"/>
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="20dp"
+                  android:gravity="center"
+                  android:orientation="horizontal">
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="45dp"
+                  android:text="만료일자: "/>
+
+        <EditText android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="45dp"
+                  android:id="@+id/expiredDate"/>
+
+    </LinearLayout>
+
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="등록"
+            android:textSize="45dp"
+            android:id="@+id/register"/>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".NewRegister">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:orientation="horizontal">
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="60dp"
+                  android:text="차량번호: "/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="60dp"
+                  android:id="@+id/carNumberRenew"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="20dp"
+                  android:gravity="center"
+                  android:orientation="horizontal">
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="60dp"
+                  android:text="등록일자: "/>
+
+        <EditText android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="60dp"
+                  android:id="@+id/registerDateRenew"/>
+
+    </LinearLayout>
+
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="수정"
+            android:textSize="60dp"
+            android:id="@+id/renew"/>
+
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="삭제"
+            android:textSize="60dp"
+            android:id="@+id/delete"/>
+
+</LinearLayout>
